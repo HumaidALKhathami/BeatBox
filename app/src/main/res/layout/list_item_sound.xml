@@ -10,7 +10,10 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="100dp"
+        style="@style/beat_box_button.bold"
+        android:width="50sp"
+        android:height="50sp"
+        android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_margin="10dp"
         android:text="@{viewModel.title}"
